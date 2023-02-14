@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Лаборатория разработки приложений "+1"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous" rel="stylesheet" >
+  </head>
+
+  <body>
+    <img src="./img/header/index.jpg" referrerpolicy="same-origin" class="col-12" style="height: 30vh; object-fit: cover">
+
+    <header class="container d-flex flex-wrap py-3 mb-4">
+        <nav aria-label="breadcrumb" class="me-md-auto">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item fs-4"><a href="index.html">+1</a></li>
+              <li class="breadcrumb-item fs-4 active" aria-current="page">Проекты</li>
+            </ol>
+          </nav>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="services.html" class="nav-link">Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="nav-link active">Проекты</a>
+        </li>
+      </ul>
+    </header>
+
+    <article class="container">
+
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h1>Опубликованы</h1></li>
+            <div class="row g-4 py-3 row-cols-1 row-cols-lg-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="./projects/ec-online.html">
+                            <img src="./img/projects/ec-online/start.png" class="card-img-top" alt="EC-Online">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="./projects/ec-online.html">EC-Online</a></h5>
+                            <p class="card-text">Приложение для оптового магазина электрооборудования</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <li class="list-group-item"><h1>В разработке</h1></li>
+            <div class="row g-4 py-3 row-cols-1 row-cols-lg-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="./projects/premiumchess.html">
+                            <img src="./img/projects/premiumchess/1.png" class="card-img-top" alt="PremiumChess">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="./projects/premiumchess.html">PremiumChess</a></h5>
+                            <p class="card-text">Приложение для турниров по шахматам</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </ul>
+    </article>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+    crossorigin="anonymous"/>
+  </body>
+</html>
